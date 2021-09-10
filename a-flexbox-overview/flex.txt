@@ -1,0 +1,28 @@
+ some properties with value of flexBox blew
+
+ It  IN useED  CONTAINER
+
+ flex-direction: row | row-reverse | column | column-reverse
+
+flex-wrap: nowrap | wrap | wrap-reverse | column
+
+justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | 
+
+align-items: flex-start | flex-end | center | baseline | center
+
+align-content: flex-start | flex-end | center | space-between | space-around | space-evenly | 
+
+--------------------------------------------------
+
+TI USED IN ITEMS
+
+align-self:auto| stretch| baseline|  flex-start | flex-end | center |
+
+
+order: 0 | <integer> | <integer> | <integer> | <integer
+
+flex-grow: 0 | <integer>
+
+flex-shrink: 1 | <integer>
+
+flex-basis: auto | <integer>
