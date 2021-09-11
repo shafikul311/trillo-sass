@@ -8,13 +8,41 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
-    <title>Trillo- </title>
+    <title>Trillo </title>
 </head>
 <body>
 
     <div class="container">
         <div class="header">
-            Header Part
+            <img src="img/logo.png" alt="trillo-logo" class="logo">
+            <form action="#" class="search">
+                <input type="text" class="search__input" placeholder="Search hotels">
+                <button class="search__button">
+                    <svg class="search__icon">
+                        <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                    </svg>
+                </button>
+            </form>
+
+
+            <nav class="user-nav">
+                <div class="user-nav__icon__box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+                    </svg>
+                    <span class="user-nav__notification">7</span>
+                </div>
+                <div class="user-nav__icon__box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="img/sprite.svg#icon-chat"></use>
+                    </svg>
+                    <span class="user-nav__notification">9</span>
+                </div>
+                <div class="user-nav__user">
+                    <img src="img/user-1.jpg" alt="" class="user-nav__user-photo">
+                    <span class="user-nav__user-name">Jonus</span>
+                </div>
+            </nav>
         </div>        
         <div class="content">
             <div class="sidebar">
