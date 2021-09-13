@@ -11,6 +11,12 @@
 .header {
     height: 7rem;
     background-color: var( --color-Grey-light-2);
+    border-radius: var(--color-grey-light-2);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
 
 }
 
