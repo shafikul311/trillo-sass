@@ -148,3 +148,36 @@
         
     }
 }
+
+
+////////////////////////
+///side navigation
+
+.side-nav {
+    &__item {
+
+    }
+
+    &__link {
+
+    }
+
+    &__icon {
+        width: 1.75rem;
+        height: 1.75rem;
+
+    }
+}
+
+
+////////////////////////
+///legal text navigation
+.legal {
+
+    font-size: 1.2rem;
+    color: var(--color-Grey-dark-3);
+    text-align: center;
+    padding: 2.5rem;
+
+
+}
