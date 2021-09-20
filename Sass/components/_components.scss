@@ -237,3 +237,51 @@
 
 
 }
+
+////////////////////////
+///Gallery
+.gallery {
+    display: flex;
+    &__photo{
+        width: 100%;
+        display: block;
+
+    }
+}
+
+
+////////////////////////
+///Hotel Overview
+
+.overview {
+    display: flex;
+    justify-content: space-between;
+
+
+    &__heading{
+        
+
+    }
+    &__stars{
+        margin-right: auto;
+
+    }
+
+    &__icon-star,
+    &__icon-location {
+
+        width: 1.75rem;
+        height: 1.75rem;
+        fill: var(--color-Primary);
+
+    }
+
+    &__rating-average{
+        
+    }
+    &__rating-count{
+
+    }
+
+
+}
